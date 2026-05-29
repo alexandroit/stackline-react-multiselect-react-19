@@ -14,7 +14,7 @@ npm start
 ## StackBlitz
 
 ```text
-https://stackblitz.com/github/alexandroit/stackline-react-multiselect-react-19?startScript=start&initialpath=%2Fbasic
+https://stackblitz.com/github/alexandroit/stackline-react-multiselect-react-19?file=src%2Fexamples%2Fbasic%2Fbasic.component.tsx&startScript=start&initialpath=%2Fbasic
 ```
 
 ## Routes
