@@ -1,5 +1,5 @@
 import { Suspense, useEffect, useMemo, useState } from 'react';
-import { exampleRoutes } from './routes';
+import { allRoutes, exampleRoutes } from './routes';
 
 function normalizePath() {
   return window.location.pathname.replace(/^\/+|\/+$/g, '') || 'basic';
@@ -15,7 +15,7 @@ export function App() {
   }, []);
 
   const route = useMemo(
-    () => exampleRoutes.find((item) => item.slug === path) || exampleRoutes[0],
+    () => allRoutes.find((item) => item.slug === path) || exampleRoutes[0],
     [path]
   );
   const CurrentExample = route.component;

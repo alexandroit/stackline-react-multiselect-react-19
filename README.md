@@ -11,6 +11,13 @@ npm install
 npm start
 ```
 
+## Validation
+
+```bash
+npm run typecheck
+npm run build
+```
+
 ## StackBlitz
 
 ```text
@@ -20,20 +27,30 @@ https://stackblitz.com/github/alexandroit/stackline-react-multiselect-react-19?f
 ## Routes
 
 - `/basic` - Basic example
-- `/all-visible-counter` - All visible counter
 - `/single-selection` - Single selection
 - `/search-filter` - Search filter
-- `/group-by` - Group By
-- `/selection-limit` - Selection limit
-- `/templating` - Templating
+- `/custom-search-api` - Custom search from API
+- `/search-filter-by-property` - Search filter by property
 - `/search-add-new-item` - Search and Add New Item
-- `/disabled-state` - Disabled state
-- `/using-in-forms` - Using in Forms
+- `/group-by` - Group By
+- `/templating` - Templating
+- `/template-driven-forms` - Template-style forms
+- `/reactive-forms` - Reactive forms
 - `/virtual-scrolling` - Virtual Scrolling
-- `/lazy-loading` - Lazy Loading
-- `/using-inside-dialog` - Using Inside Dialog
-- `/body-overlay-auto` - Body Overlay Auto
+- `/lazy-loading-api` - Lazy Loading from API
+- `/remote-data` - Data from remote API
+- `/list-loop` - Using in list for loop
+- `/dialog` - Using inside dialog
+- `/multiple-dropdowns` - Multiple dropdowns
+- `/dynamic-data` - Load dynamic data
 - `/methods` - Methods
+- `/events` - Events
+- `/disabled` - Disabled state
+- `/limit-selection` - Limit selection
+- `/limit-badges` - Limit badges
+- `/custom-placeholder` - Custom placeholder
+- `/styling` - Styling
+- `/body-overlay-auto` - Body Overlay Auto
 
 ## Package
 

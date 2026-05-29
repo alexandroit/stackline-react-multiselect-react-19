@@ -45,15 +45,18 @@ h2 { margin-top: 4px; font-size: 22px; }
 .method-bar button,
 .small-button {
   display: inline-flex;
-  min-height: 36px;
   align-items: center;
   justify-content: center;
-  padding: 0 14px;
-  border: 1px solid #cbd5e1;
-  background: #ffffff;
-  color: #334155;
+  min-height: 32px;
+  padding: 0 12px;
+  border: 1px solid #c5cae9;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #303f9f;
   cursor: pointer;
+  font-size: 12px;
   font-weight: 700;
+  line-height: 1.2;
   text-decoration: none;
 }
 
@@ -61,9 +64,9 @@ h2 { margin-top: 4px; font-size: 22px; }
 .stackblitz-row-link:focus-visible,
 .method-bar button:hover,
 .method-bar button:focus-visible {
-  border-color: #0f766e;
-  background: #0f766e;
-  color: #ffffff;
+  border-color: #7986cb;
+  background: #ffffff;
+  color: #1a237e;
   outline: none;
 }
 

@@ -14,7 +14,8 @@ function labelFor(value: unknown) {
 }
 
 export function stackBlitzUrl(slug: string) {
-  return STACKBLITZ_BASE_URL + '?startScript=start&initialpath=' + encodeURIComponent('/' + slug);
+  const filePath = `src/examples/${slug}/${slug}.component.tsx`;
+  return STACKBLITZ_BASE_URL + '?file=' + encodeURIComponent(filePath) + '&startScript=start&initialpath=' + encodeURIComponent('/' + slug);
 }
 
 export function useExampleEvents(initialEvent = 'ready') {
