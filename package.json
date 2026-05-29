@@ -1,0 +1,25 @@
+{
+  "name": "stackline-react-multiselect-react-19",
+  "version": "1.0.0",
+  "description": "Dedicated StackBlitz playground for React 19 @stackline/react-multiselect-dropdown examples.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "vite --host 0.0.0.0",
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@stackline/react-multiselect-dropdown": "19.0.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.1",
+    "typescript": "5.9.3",
+    "vite": "8.0.3"
+  }
+}
