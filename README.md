@@ -2,25 +2,7 @@
 
 Dedicated StackBlitz playground for the React 19 line of `@stackline/react-multiselect-dropdown`.
 
-This project keeps the full React 19 live matrix in one lightweight Vite app. Each example opens through a stable hash route and uses the same controlled React state, settings object, skins, keyboard behavior, body overlay behavior, and ADA-friendly interaction model from the official docs.
-
-## Examples
-
-- Basic example
-- All visible counter
-- Single selection
-- Search filter
-- Group By
-- Selection limit
-- Templating
-- Search and Add New Item
-- Disabled state
-- Using in Forms
-- Virtual Scrolling
-- Lazy Loading
-- Using Inside Dialog
-- Body Overlay Auto
-- Methods
+This repository is intentionally small so StackBlitz opens the editable example quickly. It follows the same maintained structure used by the Angular playground: each example has its own route, folder, component file, data file, and CSS file.
 
 ## Run
 
@@ -32,14 +14,26 @@ npm start
 ## StackBlitz
 
 ```text
-https://stackblitz.com/github/alexandroit/stackline-react-multiselect-react-19?startScript=start
+https://stackblitz.com/github/alexandroit/stackline-react-multiselect-react-19?startScript=start&initialpath=%2Fbasic
 ```
 
-Open a specific route by adding the hash path:
+## Routes
 
-```text
-https://stackblitz.com/github/alexandroit/stackline-react-multiselect-react-19?startScript=start&initialpath=%2F%23%2Fbasic
-```
+- `/basic` - Basic example
+- `/all-visible-counter` - All visible counter
+- `/single-selection` - Single selection
+- `/search-filter` - Search filter
+- `/group-by` - Group By
+- `/selection-limit` - Selection limit
+- `/templating` - Templating
+- `/search-add-new-item` - Search and Add New Item
+- `/disabled-state` - Disabled state
+- `/using-in-forms` - Using in Forms
+- `/virtual-scrolling` - Virtual Scrolling
+- `/lazy-loading` - Lazy Loading
+- `/using-inside-dialog` - Using Inside Dialog
+- `/body-overlay-auto` - Body Overlay Auto
+- `/methods` - Methods
 
 ## Package
 
