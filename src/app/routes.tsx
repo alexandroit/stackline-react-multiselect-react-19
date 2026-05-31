@@ -1,7 +1,14 @@
 import { lazy } from 'react';
 
 export const exampleRoutes = [
-  { slug: 'basic', title: 'Basic example', component: lazy(() => import('../examples/basic/basic.component')) },
+  { slug: 'basic', title: 'Basic usage', component: lazy(() => import('../examples/basic/basic.component')) },
+  { slug: 'keyboard-contract', title: 'Keyboard contract', component: lazy(() => import('../examples/keyboard-contract/keyboard-contract.component')) },
+  { slug: 'aria-state', title: 'ARIA state audit', component: lazy(() => import('../examples/aria-state/aria-state.component')) },
+  { slug: 'headless-aria', title: 'Headless + ARIA', component: lazy(() => import('../examples/headless-aria/headless-aria.component')) },
+  { slug: 'state-hook', title: 'State hook', component: lazy(() => import('../examples/state-hook/state-hook.component')) },
+  { slug: 'slots-api', title: 'Slots API', component: lazy(() => import('../examples/slots-api/slots-api.component')) },
+  { slug: 'type-safe-factory', title: 'Type-safe factory', component: lazy(() => import('../examples/type-safe-factory/type-safe-factory.component')) },
+  { slug: 'async-object-preservation', title: 'Async object preservation', component: lazy(() => import('../examples/async-object-preservation/async-object-preservation.component')) },
   { slug: 'single-selection', title: 'Single selection', component: lazy(() => import('../examples/single-selection/single-selection.component')) },
   { slug: 'search-filter', title: 'Search filter', component: lazy(() => import('../examples/search-filter/search-filter.component')) },
   { slug: 'custom-search-api', title: 'Custom search from API', component: lazy(() => import('../examples/custom-search-api/custom-search-api.component')) },

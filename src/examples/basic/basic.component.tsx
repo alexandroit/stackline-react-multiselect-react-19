@@ -10,7 +10,7 @@ export default function BasicExample() {
   const { events, record } = useExampleEvents();
 
   return (
-    <ExampleLayout slug="basic" eyebrow="Basic" title="Basic example" description="Classic multi-select with chips, clear all, and selected counters." events={events}>
+    <ExampleLayout slug="basic" eyebrow="Basic" title="Basic usage" description="Classic multi-select with chips, clear all, and selected counters." events={events}>
       <div className="dropdown-stack">
         <MultiSelectDropdown
           data={countries}

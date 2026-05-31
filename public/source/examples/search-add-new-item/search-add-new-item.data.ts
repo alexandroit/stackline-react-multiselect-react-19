@@ -1,75 +1,10 @@
 import type { DropdownSettings } from '@stackline/react-multiselect-dropdown';
 import type { DemoItem } from '../../shared/types';
+import { countryOptions } from '../../shared/country-data';
 
-export const countries: DemoItem[] = [
-  {
-    id: 1,
-    itemName: "Brazil",
-    name: "BR",
-    capital: "Brasilia",
-    region: "South America",
-    category: "Americas"
-  },
-  {
-    id: 2,
-    itemName: "Canada",
-    name: "CA",
-    capital: "Ottawa",
-    region: "North America",
-    category: "Americas"
-  },
-  {
-    id: 3,
-    itemName: "Portugal",
-    name: "PT",
-    capital: "Lisbon",
-    region: "Europe",
-    category: "Europe"
-  },
-  {
-    id: 4,
-    itemName: "United States",
-    name: "US",
-    capital: "Washington, DC",
-    region: "North America",
-    category: "Americas"
-  },
-  {
-    id: 5,
-    itemName: "Argentina",
-    name: "AR",
-    capital: "Buenos Aires",
-    region: "South America",
-    category: "Americas"
-  },
-  {
-    id: 6,
-    itemName: "Germany",
-    name: "DE",
-    capital: "Berlin",
-    region: "Europe",
-    category: "Europe"
-  }
-];
+export const countries: DemoItem[] = countryOptions;
 
-export const createdSelectedInitial: DemoItem[] = [
-  {
-    id: 1,
-    itemName: "Brazil",
-    name: "BR",
-    capital: "Brasilia",
-    region: "South America",
-    category: "Americas"
-  },
-  {
-    id: 2,
-    itemName: "Canada",
-    name: "CA",
-    capital: "Ottawa",
-    region: "North America",
-    category: "Americas"
-  }
-];
+export const createdSelectedInitial: DemoItem[] = countryOptions.slice(0, 2);
 
 export const createdSettings: DropdownSettings<DemoItem> = {
   singleSelection: false,

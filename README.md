@@ -26,7 +26,14 @@ https://stackblitz.com/github/alexandroit/stackline-react-multiselect-react-19?f
 
 ## Routes
 
-- `/basic` - Basic example
+- `/basic` - Basic usage
+- `/keyboard-contract` - Keyboard contract
+- `/aria-state` - ARIA state audit
+- `/headless-aria` - Headless + ARIA
+- `/state-hook` - State hook
+- `/slots-api` - Slots API
+- `/type-safe-factory` - Type-safe factory
+- `/async-object-preservation` - Async object preservation
 - `/single-selection` - Single selection
 - `/search-filter` - Search filter
 - `/custom-search-api` - Custom search from API
@@ -55,5 +62,5 @@ https://stackblitz.com/github/alexandroit/stackline-react-multiselect-react-19?f
 ## Package
 
 ```bash
-npm install @stackline/react-multiselect-dropdown@19.0.2 --save-exact
+npm install @stackline/react-multiselect-dropdown@19.1.0 --save-exact
 ```

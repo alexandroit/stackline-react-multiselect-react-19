@@ -1,5 +1,6 @@
 import type { DropdownSettings } from '@stackline/react-multiselect-dropdown';
 import type { DemoItem } from '../../shared/types';
+import { countryOptions } from '../../shared/country-data';
 
 export const initialPeople: DemoItem[] = Array.from({ length: 30 }, (_, index) => ({ id: index + 1, itemName: 'Person ' + (index + 1), region: ['Brazilian', 'Canadian', 'Mexican', 'Colombian'][index % 4] }));
 

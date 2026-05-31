@@ -1,51 +1,10 @@
 import type { DropdownSettings } from '@stackline/react-multiselect-dropdown';
 import type { DemoItem } from '../../shared/types';
+import { countryOptions } from '../../shared/country-data';
 
-export const overlayCountries: DemoItem[] = [
-  {
-    id: 42,
-    itemName: "Brazil",
-    name: "BR",
-    capital: "Brasilia",
-    region: "South America",
-    category: "Americas"
-  },
-  {
-    id: 43,
-    itemName: "Canada",
-    name: "CA",
-    capital: "Ottawa",
-    region: "North America",
-    category: "Americas"
-  },
-  {
-    id: 44,
-    itemName: "Portugal",
-    name: "PT",
-    capital: "Lisbon",
-    region: "Europe",
-    category: "Europe"
-  },
-  {
-    id: 45,
-    itemName: "United States",
-    name: "US",
-    capital: "Washington, DC",
-    region: "North America",
-    category: "Americas"
-  }
-];
+export const overlayCountries: DemoItem[] = countryOptions;
 
-export const dialogSelectedInitial: DemoItem[] = [
-  {
-    id: 42,
-    itemName: "Brazil",
-    name: "BR",
-    capital: "Brasilia",
-    region: "South America",
-    category: "Americas"
-  }
-];
+export const dialogSelectedInitial: DemoItem[] = countryOptions.slice(1, 2);
 
 export const dialogSettings: DropdownSettings<DemoItem> = {
   singleSelection: false,
