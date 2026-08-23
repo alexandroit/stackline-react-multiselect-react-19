@@ -64,3 +64,8 @@ https://stackblitz.com/github/alexandroit/stackline-react-multiselect-react-19?f
 ```bash
 npm install @stackline/react-multiselect-dropdown@19.1.5 --save-exact
 ```
+
+## License
+
+The playground source is available under the [MIT License](LICENSE).
+Dependencies retain their respective licenses.

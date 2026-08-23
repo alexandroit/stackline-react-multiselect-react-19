@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Dedicated StackBlitz playground for React 19 @stackline/react-multiselect-dropdown examples.",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "start": "vite --host 0.0.0.0",
