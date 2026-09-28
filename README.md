@@ -62,7 +62,7 @@ https://stackblitz.com/github/alexandroit/stackline-react-multiselect-react-19?f
 ## Package
 
 ```bash
-npm install @stackline/react-multiselect-dropdown@19.1.5 --save-exact
+npm install @stackline/react-multiselect-dropdown@19.1.6 --save-exact
 ```
 
 ## License
